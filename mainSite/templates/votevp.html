@@ -1,0 +1,10 @@
+{% extends "blank-page.html" %}
+
+{% block content %}
+
+<h1>Choose Vice President</h1>
+{% for candidate in candidate_detail %}
+<h3><a href="/main/view/{{candidate.name}}">{{candidate.name}}</a></h3>
+{% endfor %}
+
+{% endblock %}

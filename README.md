@@ -1,2 +1,9 @@
-# votingPages
-the voting page for each post
+# gems
+Gymkhana Election Management System
+
+## How to contribute
+### Load database
+Run
+```
+python manage.py shell < dummydata.py
+```
